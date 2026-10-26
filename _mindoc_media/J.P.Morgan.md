@@ -16,7 +16,7 @@ format: 14 v ill 20-29 cm, jpg
 credit_(IPTC): Digitization courtesy of Google, HathiTrust Digital Library
 date_created_(IPTC):
 
-_path: /assets/img/J.P Morgan.jpg 
+_path: /assets/img/J.P.Morgan.jpg 
 order: '02'
 layout: image_description
 ---
