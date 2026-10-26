@@ -3,6 +3,8 @@ layout: single_page
 ---
 title: Source Lab
 description: By Albert Lopez
+{% assign media = site.mindoc_media | where: "page", "source" %}
+{% include media_next.html pages=media %}
 
 {% assign media = site.mindoc_media | where: "page", "source" %}
 {% include media_next.html pages=media %}
@@ -33,6 +35,9 @@ Here and throughout your edition, you should use footnotes in Chicago Notes and 
 # The Source
 
 This section provides the main presentation of your source, as you have prepared it for readers (i.e., a facsimile, transcription, video, audio clip, etc.). This section is where we satisfy the first of the ADE’s three criteria for an electronic edition by providing a rigorous, accurate presentation of historical material.
+
+{% assign media = site.mindoc_media | where: "page", "source" %}
+{% include media_next.html pages=media %}
 
 {% assign media = site.mindoc_media | where: "page", "source" %}
 {% include media_next.html pages=media %}
