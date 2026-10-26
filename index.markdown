@@ -2,7 +2,11 @@
 layout: single_page
 ---
 title: Source Lab
-description: Albert Lopez
+description: By Albert Lopez
+
+{% assign media = site.mindoc_media | where: "page", "source" %}
+{% include media_next.html pages=media %}
+
 # Introduction
 
 Word count: 250–450 words
