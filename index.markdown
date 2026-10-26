@@ -1,7 +1,8 @@
 ---
 layout: single_page
 ---
-
+title: Source Lab
+description: Albert Lopez
 # Introduction
 
 Word count: 250–450 words
